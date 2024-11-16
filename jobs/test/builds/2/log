@@ -1,0 +1,19 @@
+Started by user [8mha:////4PrQungGbsOBezTA3UbUoKClPjSKzF51bu1YahjmUSeOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mReshma Ghosh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ReshmaGhosh/DevOps1.git # timeout=10
+Fetching upstream changes from https://github.com/ReshmaGhosh/DevOps1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/ReshmaGhosh/DevOps1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision af07c5c5ae1c0f579729a210401865a7004a0b5c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f af07c5c5ae1c0f579729a210401865a7004a0b5c # timeout=10
+Commit message: "Update myfile.txt"
+ > git rev-list --no-walk af07c5c5ae1c0f579729a210401865a7004a0b5c # timeout=10
+Finished: SUCCESS

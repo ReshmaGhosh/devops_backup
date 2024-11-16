@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Jenkins Bitbucket Plugin
+Specification-Version: 0.0
+Implementation-Title: Jenkins Bitbucket Plugin
+Implementation-Version: 254.v9d8ec33a_7a_42
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: bitbucket
+Short-Name: bitbucket
+Long-Name: Jenkins Bitbucket Plugin
+Url: https://github.com/jenkinsci/bitbucket-plugin
+Plugin-Version: 254.v9d8ec33a_7a_42
+Hudson-Version: 2.414.1
+Jenkins-Version: 2.414.1
+Plugin-Dependencies: workflow-multibranch:746.v05814d19c001,git:5.0.2,jo
+ b-dsl:1.82;resolution:=optional,mercurial:1260.vdfb_723cdcc81,scm-api:6
+ 76.v886669a_199a_a_
+Plugin-Developers: 
+Plugin-License-Name: MIT
+Plugin-License-Url: https://opensource.org/license/mit/
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/bitbucket-plu
+ gin.git
+Plugin-ScmTag: 9d8ec33a7a421f58015a6b61ebb40d10e2fc2681
+Plugin-ScmUrl: https://github.com/jenkinsci/bitbucket-plugin
+Plugin-GitHash: 9d8ec33a7a421f58015a6b61ebb40d10e2fc2681
+Implementation-Build: 9d8ec33a7a421f58015a6b61ebb40d10e2fc2681
+
